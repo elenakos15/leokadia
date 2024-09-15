@@ -12,8 +12,8 @@ html, body {
   }
   
 .center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
+  padding-left: calc(50%-600PX);
+  padding-right: calc(50%-600px);
 }
 
     .header {
@@ -87,6 +87,7 @@ text-align: center;
 flex: none;
 order: 1;
 flex-grow: 0;
+margin-left: 120px;
 margin-bottom: 156px;
 }
 
@@ -97,7 +98,6 @@ margin-bottom: 156px;
 .product-box {
   width: 100%;
   
-
 }
   .product-content {
     background: #000000;
@@ -144,12 +144,12 @@ margin-bottom: 156px;
   justify-content: space-between; /* Распределение пространства */
   padding-top: 94px;
   padding-bottom: 92px;
+  padding-left: 120px;
+  padding-right: 119px;
   justify-content: space-evenly;
   
 }
-.tablet-only {
-  display: none; /* По умолчанию скрываем текст */
-}
+
 
 .product-container fieldset {
   margin-bottom: 20px; /* Отступ между рядами */
@@ -167,7 +167,8 @@ margin-bottom: 156px;
 }
 
 .prod2{
-   border-radius: 30px;
+ 
+  border-radius: 30px;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   background: #ffffff;
@@ -194,7 +195,8 @@ margin-bottom: 156px;
   width: 378px;
   height: 314px;
   border-radius: 30px;
- }
+ 
+}
 
 .link1 {
   width: 378px;
@@ -214,6 +216,9 @@ margin-bottom: 156px;
   border-radius: 30px;
 }
 
+.tablet-only {
+    display: none; /* По умолчанию скрываем текст */
+}
 .product__name {
   font-family: Montserrat;
   font-size: 17.19px;
@@ -267,26 +272,10 @@ margin-bottom: 156px;
   padding-right: 32px;
   padding-bottom: 36px;
   color: #202027;
-}
-.prod1, .prod2 {
-  position: relative;
-}
-.game__star1 {
-
-  position: absolute;
-  width: 584.72px;
-  height: 584.72px;
-  right: 20px; /* Обратите внимание на правое расстояние */
-  top: -40px; /* Сместите звезду вверх */
-  transform: rotate(-6.77deg);
-  z-index: -1; /* Убедитесь, что звезда под карточками */
-}
+} 
 .footer {
-
   width: 1441px;
   height: 150px;
   top: 5770px;
-  background:rgb(189, 237, 53);
+  
 }
-
-@import 'tabler';
