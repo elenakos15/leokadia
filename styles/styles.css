@@ -5,11 +5,11 @@
 }
 @font-face {
     font-family: 'Steppe-Book';
-    src: url(../fonts/Steppe-Book.ttf);
+    src: url(../../fonts/Steppe-Book.ttf);
 }
 @font-face {
     font-family: 'Steppe-ExtraBold';
-    src: url(../fonts/Steppe-ExtraBold.ttf);
+    src: url(../../fonts/Steppe-ExtraBold.ttf);
 }
 body {
   background-color: #5243F4;
@@ -35,7 +35,7 @@ body {
     cursor: pointer;
 }
 .button:hover {
-    background-color: #eeeeee;
+    background-color: #eeeee;
 }
 .header {
     padding: 40px 0;
@@ -65,14 +65,14 @@ body {
 .menu-item a:hover {
     border-bottom: 2px solid white;
 }
-main-content {
+.main-content {
     padding-top: 161px;
     padding-bottom: 200px;
 }
-main-info {
+.main-info {
     max-width: 811px;
 }
-main-title {
+.main-title {
     font-family: 'Steppe-ExtraBold', sans-serif;
     font-size: 90px;
     line-height: 100%;
